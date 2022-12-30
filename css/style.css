@@ -1,0 +1,12 @@
+@import url(font.css);
+@import url(navbar.css);
+@import url(landing-page.css);
+@import url(about-me.css);
+
+/* :root {
+  --nav-icon-width: 30px;
+} */
+
+body {
+  background-color: #2c2d32;
+}

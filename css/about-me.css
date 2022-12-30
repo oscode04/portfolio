@@ -1,0 +1,43 @@
+.about-me {
+  background-color: #3c3d43;
+  /* height: 700px; */
+  padding-top: 205px;
+  padding-bottom: 205px;
+}
+
+.about-me img {
+  max-width: 225px;
+  max-height: 290px;
+}
+
+.text-about-me {
+  color: #fff;
+}
+
+.text-about-me h5 {
+  font: 400 18px normal inter, sans-serif;
+  color: #ffffff;
+}
+
+.text-about-me h1 {
+  font: 400 30px normal inter, sans-serif;
+  /* line-height: 36px; */
+  color: #ffffff;
+}
+
+.line-about-me {
+  width: 91px;
+  height: 5px;
+
+  background: #f6ae2d;
+}
+
+.text-about-me p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}

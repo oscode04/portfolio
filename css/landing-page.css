@@ -1,0 +1,54 @@
+/* foto */
+.foto {
+  margin-top: 60px;
+}
+
+.foto img {
+  max-width: 260px;
+  max-height: auto;
+}
+
+.name h1 {
+  font: normal 600 40px "Exo", sans-serif;
+  text-align: center;
+  color: #f6ae2d;
+  margin-top: -18px;
+}
+
+.name p {
+  font: normal 300 20px "Open Sans", sans-serif;
+  text-align: center;
+  color: #f7f9f9;
+  margin-top: -7px;
+  margin-bottom: 105px;
+}
+
+.scroll img {
+  max-width: 20px;
+  max-height: 24px;
+}
+
+.scroll p {
+  font: normal 300 14px "Open Sans", sans-serif;
+  color: #f7f9f9;
+  margin-top: 10px;
+  animation: blinker 1.5s linear infinite;
+}
+
+.scroll-icon1 {
+  animation: blinker 1.75s linear infinite;
+}
+
+.scroll-icon2 {
+  animation: blinker 1.5s linear infinite;
+}
+
+.scroll-icon3 {
+  animation: blinker 1.25s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

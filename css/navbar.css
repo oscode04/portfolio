@@ -1,0 +1,52 @@
+.navbar-nav a {
+  color: #f7f9f9;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.navbar-nav a:hover {
+  color: #f6ae2d !important;
+}
+
+@media (min-width: 768px) {
+  .nav-link:nth-child(1) {
+    margin-right: 105px;
+  }
+  .nav-link:nth-child(3),
+  .nav-link:nth-child(4),
+  .nav-link:nth-child(5) {
+    margin-left: 105px;
+  }
+}
+
+.navbar-nav .active {
+  color: #f6ae2d !important;
+}
+
+.navbar-toggler {
+  margin-left: 87%;
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+.nav-custom {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 4px;
+
+  background-position: center;
+}
+
+.nav-custom:nth-child(1) {
+  background-color: #f6ae2d;
+}
+
+.nav-custom:nth-child(2) {
+  background-color: #f6ae2d;
+}
+.nav-custom:nth-child(3) {
+  background-color: #f6ae2d;
+}
