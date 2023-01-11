@@ -2,6 +2,9 @@
 @import url(navbar.css);
 @import url(landing-page.css);
 @import url(about-me.css);
+@import url(my-work.css);
+@import url(my-skill.css);
+@import url(contact-me.css);
 
 /* :root {
   --nav-icon-width: 30px;
@@ -9,4 +12,13 @@
 
 body {
   background-color: #2c2d32;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }

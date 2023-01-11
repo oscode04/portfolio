@@ -1,4 +1,7 @@
-/* foto */
+.bag-1 {
+  max-height: 850px;
+}
+
 .foto {
   margin-top: 60px;
 }
@@ -9,14 +12,14 @@
 }
 
 .name h1 {
-  font: normal 600 40px "Exo", sans-serif;
+  font: 600 40px "Exo", sans-serif;
   text-align: center;
   color: #f6ae2d;
   margin-top: -18px;
 }
 
 .name p {
-  font: normal 300 20px "Open Sans", sans-serif;
+  font: 300 20px "Open Sans", sans-serif;
   text-align: center;
   color: #f7f9f9;
   margin-top: -7px;
@@ -29,10 +32,11 @@
 }
 
 .scroll p {
-  font: normal 300 14px "Open Sans", sans-serif;
+  font: 300 14px "Open Sans", sans-serif;
   color: #f7f9f9;
   margin-top: 10px;
   animation: blinker 1.5s linear infinite;
+  margin-bottom: 50px;
 }
 
 .scroll-icon1 {

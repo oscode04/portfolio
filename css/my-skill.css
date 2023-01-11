@@ -1,0 +1,57 @@
+/* .col-lg-3 {
+  border: solid 1px red;
+} */
+
+.my-skill {
+  background-color: #3c3d43;
+  /* height: 700px; */
+  margin-top: 230px;
+  padding-top: 30px;
+  padding-bottom: 205px;
+}
+
+.my-skill h1 {
+  font: 600 45px Exo, sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.frame-skill-light {
+  width: 230px;
+  height: 85px;
+  background: #2c2d32;
+  box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.frame-skill-light p {
+  font: 500 22px Open-sans, sans-serif;
+  color: #f7f9f9;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-top: 18px;
+}
+
+.frame-skill-light img {
+  margin-left: 15px;
+}
+
+.frame-skill-dark {
+  width: 230px;
+  height: 85px;
+  background: #f7f9f9;
+  box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.frame-skill-dark p {
+  font: 500 22px Open-sans, sans-serif;
+  color: #3c3d43;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-top: 18px;
+}
+
+.frame-skill-dark img {
+  margin-left: 15px;
+}

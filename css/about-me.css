@@ -5,6 +5,13 @@
   padding-bottom: 205px;
 }
 
+@media (max-width: 575.98px) {
+  .about-me {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
 .about-me img {
   max-width: 225px;
   max-height: 290px;
@@ -15,12 +22,13 @@
 }
 
 .text-about-me h5 {
-  font: 400 18px normal inter, sans-serif;
+  font: 400 18px inter, sans-serif;
   color: #ffffff;
+  margin-bottom: 5px;
 }
 
 .text-about-me h1 {
-  font: 400 30px normal inter, sans-serif;
+  font: 400 30px inter, sans-serif;
   /* line-height: 36px; */
   color: #ffffff;
 }
@@ -28,16 +36,50 @@
 .line-about-me {
   width: 91px;
   height: 5px;
-
   background: #f6ae2d;
+  margin-top: -7px;
+  margin-bottom: 13px;
 }
 
 .text-about-me p {
-  font-family: "Open Sans";
-  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  /* font-style: normal; */
   font-weight: 400;
   font-size: 14px;
-  line-height: 19px;
-
+  line-height: 22px;
+  margin-bottom: 20px;
   color: #ffffff;
+}
+
+.btn-contact-me {
+  width: 120px;
+  height: 35px;
+  border-radius: 0;
+  background: #f6ae2d;
+  /* font */
+  font: 400 14px Open-Sans, sans-serif;
+  text-align: center;
+  color: #1e1e1e;
+}
+
+.btn-contact-me:hover {
+  background: #fdbe49;
+  color: #333333;
+}
+
+.btn-cv {
+  width: 140px;
+  height: 35px;
+  border-radius: 0;
+  margin-left: 17px;
+  border: 1px solid #ffffff;
+  /* font */
+  font: 400 14px normal Open-Sans, sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn-cv:hover {
+  border: 1px solid #fdbe49;
+  color: #fdbe49;
 }
