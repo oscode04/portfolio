@@ -8,6 +8,7 @@
   margin-top: 230px;
   padding-top: 30px;
   padding-bottom: 205px;
+  padding-bottom: 260px;
 }
 
 .my-skill h1 {
@@ -54,4 +55,22 @@
 
 .frame-skill-dark img {
   margin-left: 15px;
+}
+
+/* mobile version */
+
+.frame-for-mobile {
+  width: 90px;
+  height: 85px;
+  background: #2c2d32;
+  box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.frame-for-mobile-dark {
+  width: 90px;
+  height: 85px;
+  background: #f7f9f9;
+  box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }

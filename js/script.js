@@ -33,3 +33,51 @@ fetch("../pages-html/contact-me.html")
   .then((hasil) => {
     contactMe.innerHTML = hasil;
   });
+
+// script untuk scroll indicator
+// const sections = document.querySelectorAll("section");
+
+const documentHeight = document.innerHeight;
+// console.log(documentHeight);
+window.addEventListener("scroll", function () {
+  let line = document.getElementById("line");
+  const dot2 = document.getElementById("dot2");
+  const dot3 = document.getElementById("dot3");
+  const dot4 = document.getElementById("dot4");
+  const dot5 = document.getElementById("dot5");
+
+  const scroll = this.window.scrollY;
+  const windowHeight = window.innerHeight;
+  const value = (scroll / windowHeight) * 19;
+
+  line.style.height = value + "%";
+  if (value > 16.5) {
+    dot2.classList.remove("non-active-dot");
+    dot2.classList.add("active-dot");
+  } else {
+    dot2.classList.remove("active-dot");
+    dot2.classList.add("non-active-dot");
+  }
+  if (value > 36.9) {
+    dot3.classList.remove("non-active-dot");
+    dot3.classList.add("active-dot");
+  } else {
+    dot3.classList.remove("active-dot");
+    dot3.classList.add("non-active-dot");
+  }
+  if (value > 55.9) {
+    dot4.classList.remove("non-active-dot");
+    dot4.classList.add("active-dot");
+  } else {
+    dot4.classList.remove("active-dot");
+    dot4.classList.add("non-active-dot");
+  }
+  if (value >= 75) {
+    dot5.classList.remove("non-active-dot");
+    dot5.classList.add("active-dot");
+  } else {
+    dot5.classList.remove("active-dot");
+    dot5.classList.add("non-active-dot");
+  }
+  // console.log(value);
+});
