@@ -3,6 +3,7 @@
   /* height: 700px; */
   padding-top: 205px;
   padding-bottom: 205px;
+  overflow: hidden;
 }
 
 @media (max-width: 575.98px) {
