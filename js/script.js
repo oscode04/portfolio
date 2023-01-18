@@ -48,7 +48,7 @@ window.addEventListener("scroll", function () {
 
   const scroll = this.window.scrollY;
   const windowHeight = window.innerHeight;
-  const value = (scroll / windowHeight) * 19;
+  const value = (scroll / windowHeight) * 17;
 
   line.style.height = value + "%";
   if (value > 16.5) {

@@ -1,3 +1,8 @@
+.my-work {
+  min-height: 90vh;
+  max-height: 100vh;
+}
+
 .my-work-title {
   font: 600 45px Exo, sans-serif;
   text-align: center;
