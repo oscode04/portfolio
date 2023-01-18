@@ -30,6 +30,10 @@
   margin-bottom: 6px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .project-description {
   font: 300 13px Open-sans, sans-serif;
   color: #ffffff;
