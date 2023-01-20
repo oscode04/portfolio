@@ -85,10 +85,10 @@ window.addEventListener("scroll", function () {
 });
 
 // script untuk splash screen
-// const splash = document.getElementById("splash");
+const splash = document.getElementById("splash");
 
-// document.addEventListener("DOMContentLoaded", (e) => {
-//   setTimeout(() => {
-//     splash.classList.add("display-none");
-//   }, 2000);
-// });
+document.addEventListener("DOMContentLoaded", (e) => {
+  setTimeout(() => {
+    splash.classList.add("display-none");
+  }, 300);
+});
