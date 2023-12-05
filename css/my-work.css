@@ -20,12 +20,13 @@
 }
 
 .frame-mywork img {
-  /* position: relative; */
-  /* max-width: 100px;
-  max-height: 105px; */
-  width: inherit;
+  /* width: inherit;
   height: inherit;
-  cursor: pointer;
+  cursor: pointer; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: inset(0 0 0 0);
 }
 
 .project-tittle {
